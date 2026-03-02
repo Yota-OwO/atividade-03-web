@@ -1,6 +1,8 @@
 const painel = document.querySelector("#painel");
 const botaoTema = document.querySelector("#btn-tema");
 
-botaoTema.addEventListener("click", () => {
-    painel.classList.toggle("tema-escuro");
+if (btn-tema && painel){
+    botaoTema.addEventListener("click", () => {
+      painel.classList.toggle("tema-escuro");
 });
+}
