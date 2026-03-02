@@ -1,0 +1,27 @@
+:root {
+  --cor-fundo: #f0f0f0;
+  --cor-primaria: #4caf50;
+  --cor-secundaria: #ffffff;
+  --cor-texto: #333333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  margin: 0;
+  padding: 20px;
+}
+
+.gerenciador-fila {
+  background-color: var(--cor-secundaria);
+  border: 1px solid var(--cor-primaria);
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: var(--cor-primaria);
+}

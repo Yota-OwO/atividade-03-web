@@ -1,0 +1,35 @@
+.aprovado {
+  color: #27ae60;
+  font-weight: bold;
+}
+.reprovado {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+:root {
+  --cor-fundo: #2b2c2e;
+  --cor-texto: #dad5d5;
+}
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.painel-leitura {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+input[type="number"] {
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20%;
+  box-sizing: border-box;
+}
