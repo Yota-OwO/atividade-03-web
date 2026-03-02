@@ -3,6 +3,7 @@ const nota2Input = document.querySelector("#nota2");
 const btnCalcular = document.querySelector("#btn-calcular");
 const resultadoMedia = document.querySelector("#resultado-media");
 
+if(btnCalcular){
 btnCalcular.addEventListener("click", () => {
   const nota1 = parseFloat(nota1Input.value);
   const nota2 = parseFloat(nota2Input.value);
@@ -19,3 +20,4 @@ btnCalcular.addEventListener("click", () => {
     resultadoMedia.className = "reprovado";
   }
 });
+}
